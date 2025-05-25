@@ -111,7 +111,7 @@
 // buffer as needed.
 #if defined(ARDUINO_ARCH_ESP8266) || defined(ARDUINO_ARCH_ESP32) ||            \
     defined(ARDUINO_ARCH_RP2040) || defined(ARDUINO_ARCH_SAMD)
-#define MAXBUFFERSIZE (512)
+#define MAXBUFFERSIZE (2048)
 #else
 #define MAXBUFFERSIZE (150)
 #endif
